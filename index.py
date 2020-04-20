@@ -6,8 +6,8 @@ import tablestore
 
 # define ots instance
 endpoint = 'https://instance.cn-hangzhou.ots.aliyuncs.com'
-access_key_id = 'LTAI4FuP4exR6UYDZ3M8nGMb'
-access_key_secret = 'cNurjm500jSSG1AO4bsPBiOOovKiPu'
+access_key_id = '*********'
+access_key_secret = '**********'
 instance_name = 'env-device'
 ots_client = tablestore.OTSClient(
     endpoint, access_key_id, access_key_secret,
